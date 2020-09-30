@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
         movies = new ArrayList<>();
 
         final MovieApapter movieApapter = new MovieApapter(this,movies);
-        rvMovies.setAdapter(movieApapter);
         rvMovies.setLayoutManager(new LinearLayoutManager(this ));
+        rvMovies.setAdapter(movieApapter);
 
         AsyncHttpClient client = new AsyncHttpClient();
         client.get(BASE_URL, new JsonHttpResponseHandler() {
