@@ -45,7 +45,9 @@
         android:textAlignment="viewStart"
         android:textColor="@android:color/white"
         android:textStyle="bold"
-        tools:text="Money Plane" />
+        tools:text="Money Plane"
+        android:transitionName = "movie_image"
+        />
 
     <TextView
         android:id="@+id/ivDescription"
@@ -58,6 +60,7 @@
         android:textColor="@android:color/white"
         android:maxLines="8"
         android:ellipsize="end"
+        android:transitionName = "movie_image"
         tools:text="hen the Emperor of China issues a decree that one man per family must serve in the Imperial Chinese Army to defend the country from Huns, Hua Mulan, the eldest daughter of an honored warrior, steps in to take the place of her ailing father. She is spirited, determined and quick on her feet. Disguised as a man by the name of Hua Jun, she is tested every step of the way and must harness her innermost strength and embrace her true potential" />
 
 </RelativeLayout>

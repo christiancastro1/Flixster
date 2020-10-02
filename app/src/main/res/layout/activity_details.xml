@@ -29,6 +29,7 @@
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/player"
         tools:layout_editor_absoluteX="0dp"
+        android:transitionName = "movie_image"
         tools:text="The outpost" />
 
     <RatingBar
@@ -50,5 +51,6 @@
         android:layout_marginBottom="10dp"
         android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+        android:transitionName = "movie_image"
         tools:text="Sample text" />
 </androidx.constraintlayout.widget.ConstraintLayout>

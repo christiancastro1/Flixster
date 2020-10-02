@@ -81,3 +81,15 @@ public class MovieApapter extends RecyclerView.Adapter<MovieApapter.ViewHolder> 
         }
     }
 }
+
+
+/*
+
+
+Intent intent = new Intent(this, DetailsActivity.class);
+// Pass data object in the bundle and populate details activity.
+intent.putExtra(DetailsActivity.EXTRA_CONTACT, contact);
+ActivityOptionsCompat options = ActivityOptionsCompat.
+    makeSceneTransitionAnimation(MainActivity.this, (View)ivProfile, "profile");
+startActivity(intent, options.toBundle());
+ */
